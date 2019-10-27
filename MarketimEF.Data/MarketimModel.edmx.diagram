@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ab807c4c0d574d23b32e0a01521fddb1" Name="Diagram1">
+        <EntityTypeShape EntityType="MarketimModel.Category" Width="1.5" PointX="6" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketimModel.City" Width="1.5" PointX="1.5" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketimModel.Customer" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketimModel.Department" Width="1.5" PointX="1.5" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketimModel.Employee" Width="1.5" PointX="6" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketimModel.OrderDetail" Width="1.5" PointX="15.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketimModel.Order" Width="1.5" PointX="13.5" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketimModel.Position" Width="1.5" PointX="3.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketimModel.Product" Width="1.5" PointX="8.25" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketimModel.RecordStatus" Width="1.5" PointX="0.75" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketimModel.Shipper" Width="1.5" PointX="11.25" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketimModel.Supplier" Width="1.5" PointX="11.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketimModel.Town" Width="1.5" PointX="0.75" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketimModel.Unit" Width="1.5" PointX="6" PointY="17.625" IsExpanded="true" />
+        <AssociationConnector Association="MarketimModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Towns_Cities" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Customers_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Customers_Employees1" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Customers_Employees2" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Customers_RecordStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Customers_Towns" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Orders_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Positions_Departments" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Employees_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Employees_Employees1" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Employees_Employees2" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Employees_Positions" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Employees_RecordStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Orders_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Products_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Products_Employees1" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Products_Employees2" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Shippers_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Shippers_Employees1" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Shippers_Employees2" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Suppliers_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Suppliers_Employees1" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Suppliers_Employees2" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_OrderDetails_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_OrderDetails_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Orders_RecordStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Orders_Shippers" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Products_RecordStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Products_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Products_Units" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Shippers_RecordStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketimModel.FK_Suppliers_RecordStatuses" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
